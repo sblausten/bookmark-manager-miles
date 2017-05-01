@@ -1,0 +1,16 @@
+* Define 'Persistence'
+Storage of information (duration unspecified)
+
+* Contrast database persistence with session persistence and persistence on the filesystem
+Databases store data on servers. Data can be persisted for longer than the session of a user.
+Session persistence is data that is stored for the duration of a user's session.
+Filesystem persistence is data stored within a file system according to that
+system's architecture.
+
+Describe the structure of a database, referencing 'tables' and 'rows'
+Like an excel sheet, with multiple tabs
+
+
+
+Define 'PostgreSQL' as 'a particular type of relational database'
+Is an open-source relational db.
