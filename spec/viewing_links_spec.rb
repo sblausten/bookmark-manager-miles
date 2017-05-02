@@ -1,4 +1,3 @@
-require './app/models/link'
 feature 'viewing list of links' do
   scenario 'I can see existing lins on the links page' do
     Link.create(url: 'http://wwww.makersacademy.com', title: 'Makers Academy')

@@ -1,4 +1,4 @@
-
+require './app/models/link'
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
