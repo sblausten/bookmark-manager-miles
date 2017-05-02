@@ -1,12 +1,9 @@
 require './app/models/link'
 
-
-
 ENV['RACK_ENV'] = 'test'
 
-
 # require our Sinatra app file
-require File.join(File.dirname(__FILE__), '..', './app/app.rb')
+require File.join(File.dirname(__FILE__), '..', 'app/app.rb')
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
