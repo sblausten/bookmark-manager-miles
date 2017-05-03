@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/robertjones/Projects/bookmark-manager/spec/features/adds_a_bookmark_spec.rb": [
+      "/Users/milesillsley/Projects/bookmark-manager/spec/features/adds_a_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -17,7 +17,7 @@
         null,
         null
       ],
-      "/Users/robertjones/Projects/bookmark-manager/spec/features/viewing_links_spec.rb": [
+      "/Users/milesillsley/Projects/bookmark-manager/spec/features/viewing_links_spec.rb": [
         1,
         1,
         1,
@@ -30,10 +30,6 @@
         null
       ]
     },
-<<<<<<< HEAD
-    "timestamp": 1493813397
-=======
-    "timestamp": 1493812036
->>>>>>> 2a5145a8b1915e07bf897d4a9fc0e575f16a1fbf
+    "timestamp": 1493816435
   }
 }
