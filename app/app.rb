@@ -23,6 +23,16 @@ class BookmarkManager < Sinatra::Base
     redirect('/links')
   end
 
+  get '/tags/bubbles' do
+    @links = Link.all.map { |link| 
+        tagged = link.tags.map { |tag| 
+          tag.name == 'bubbles' }
+        link if tagged.include?(true)
+      }.compact
+      
+    erb :'links/index'
+  end
+
   run! if app_file == $0
 
 end

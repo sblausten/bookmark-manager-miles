@@ -7,9 +7,10 @@ feature 'Filters links by tag' do
 
     scenario "Filters by the tag 'bubbles'" do
       visit 'tags/bubbles'
+      expect(page.status_code).to eq(200)
       within 'ul#links' do
-        expect(page).to not_have_content('BBC')
-        expect(page).to not_have_content('Makers Academy')
+        expect(page).not_to have_content('BBC')
+        expect(page).not_to have_content('Makers Academy')
         expect(page).to have_content('Bubblebobble')
       end
     end
