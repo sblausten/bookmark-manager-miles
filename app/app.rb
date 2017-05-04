@@ -6,7 +6,8 @@ require 'sinatra/base'
 class BookmarkManager < Sinatra::Base
 
   get '/links' do
-    p @links = Link.all
+    @links = Link.all
+    #p @tags = Tag.all
     erb(:'links/index')
   end
 
