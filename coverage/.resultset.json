@@ -16,6 +16,17 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/adds_a_bookmark_spec.rb": [
@@ -37,9 +48,19 @@
       "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/filters_links_by_tag_spec.rb": [
         1,
         1,
+        2,
+        2,
+        2,
+        null,
+        null,
         1,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null,
         null,
         1,
@@ -66,6 +87,6 @@
         null
       ]
     },
-    "timestamp": 1493915913
+    "timestamp": 1493983100
   }
 }

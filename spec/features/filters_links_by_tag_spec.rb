@@ -14,4 +14,14 @@ feature 'Filters links by tag' do
         expect(page).to have_content('Bubblebobble')
       end
     end
+
+    scenario "Filters by the tag 'education'" do
+      visit 'tags/education'
+      expect(page.status_code).to eq(200)
+      within 'ul#links' do
+        expect(page).not_to have_content('BBC')
+        expect(page).not_to have_content('Bubblebobble')
+        expect(page).to have_content('Makers Academy')
+      end
+    end
 end
