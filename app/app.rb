@@ -41,8 +41,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/users' do
-    user = User.first_or_create(email: params[:email], password: params[:password])
-    # user.save
+    user = User.create(email: params[:email], password: params[:password])
     session[:current_user_id] = user.id
     redirect('/links')
   end
