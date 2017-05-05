@@ -1,5 +1,9 @@
 <h1>Links</h1>
 
+<% if User.last %>
+<h2>Welcome <%=User.last.email%></h2>
+<% end %>
+
 <ul id='links'>
   <% @links.each do |link| %>
     <li>

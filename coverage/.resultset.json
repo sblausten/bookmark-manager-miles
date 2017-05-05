@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/add_tag_spec.rb": [
+      "/Users/milesillsley/Projects/bookmark-manager-miles/spec/features/add_tag_spec.rb": [
         1,
         1,
         1,
@@ -29,7 +29,7 @@
         null,
         null
       ],
-      "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/adds_a_bookmark_spec.rb": [
+      "/Users/milesillsley/Projects/bookmark-manager-miles/spec/features/adds_a_bookmark_spec.rb": [
         1,
         1,
         1,
@@ -45,7 +45,7 @@
         null,
         null
       ],
-      "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/filters_links_by_tag_spec.rb": [
+      "/Users/milesillsley/Projects/bookmark-manager-miles/spec/features/filters_links_by_tag_spec.rb": [
         1,
         1,
         2,
@@ -74,19 +74,18 @@
         null,
         null
       ],
-      "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/register_spec.rb": [
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
+      "/Users/milesillsley/Projects/bookmark-manager-miles/spec/features/register_spec.rb": [
         null,
-        0,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
         null,
         null
       ],
-      "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/viewing_links_spec.rb": [
+      "/Users/milesillsley/Projects/bookmark-manager-miles/spec/features/viewing_links_spec.rb": [
         1,
         1,
         1,
@@ -99,6 +98,6 @@
         null
       ]
     },
-    "timestamp": 1493991780
+    "timestamp": 1493994489
   }
 }
