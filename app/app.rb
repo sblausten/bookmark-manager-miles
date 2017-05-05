@@ -5,6 +5,14 @@ require 'sinatra/base'
 
 class BookmarkManager < Sinatra::Base
 
+  enable :sessions
+
+  helpers do
+    def current_user
+      User.first(id: session[:current_user_id])
+    end
+  end
+
   get '/links' do
     @links = Link.all
     erb(:'links/index')
@@ -33,7 +41,9 @@ class BookmarkManager < Sinatra::Base
   end
 
   post '/users' do
-    User.first_or_create(email: params[:email], password: params[:password])
+    user = User.first_or_create(email: params[:email], password: params[:password])
+    # user.save
+    session[:current_user_id] = user.id
     redirect('/links')
   end
 

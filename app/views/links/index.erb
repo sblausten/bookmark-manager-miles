@@ -1,7 +1,7 @@
 <h1>Links</h1>
 
-<% if User.last %>
-<h2>Welcome <%=User.last.email%></h2>
+<% if current_user %>
+<h2>Welcome <%=current_user.email%></h2>
 <% end %>
 
 <ul id='links'>
