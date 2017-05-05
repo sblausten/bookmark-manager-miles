@@ -2,6 +2,7 @@ ENV["RACK_ENV"] = "test"
 
 # require our Sinatra app file
 require File.join(File.dirname(__FILE__), '..', 'app/app.rb')
+require_relative 'web_helpers.rb'
 require 'capybara/rspec'
 require 'database_cleaner'
 require 'simplecov'

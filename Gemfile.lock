@@ -140,6 +140,7 @@ DEPENDENCIES
   dm-postgres-adapter
   pg
   rack
+  rake
   rspec
   rubocop
   simplecov

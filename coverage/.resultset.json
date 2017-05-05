@@ -74,6 +74,18 @@
         null,
         null
       ],
+      "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/register_spec.rb": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
       "/Users/sblausten/Documents/Makers/bookmark-manager-rob/spec/features/viewing_links_spec.rb": [
         1,
         1,
@@ -87,6 +99,6 @@
         null
       ]
     },
-    "timestamp": 1493985219
+    "timestamp": 1493991780
   }
 }
